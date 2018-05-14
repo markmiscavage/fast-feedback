@@ -1,0 +1,6 @@
+# if this comment exists testfails
+sitemap: Ohttp://www.testfail.com/sitemap.xml
+
+user-agent: *
+allow: /*
+disallow: /admin

@@ -1,0 +1,22 @@
+#--- Python requirements to be included in EVERY environment
+#    NOTE: to avoid conflicts, every requirement should include the version
+
+#--- Django
+django              == 1.9.2
+
+#--- Monitoring
+newrelic
+
+
+#--- Scarlet
+git+git://github.com/ff0000/scarlet.git@bab1fee6329b42fd9f6f53133b4f0ad3043e8fbd
+# Develop branch as of July 25, 2016
+
+django-taggit==0.18.0
+
+raven
+# Redis
+#redis==2.10.6
+#django-redis-cache==1.7.1
+
+djangorestframework==3.4.3

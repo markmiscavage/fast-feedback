@@ -1,0 +1,19 @@
+{
+  "name": "sbk-feedback",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "ember": "~1.11.3",
+    "ember-model": "~0.0.15",
+    "ember-qunit": "~0.3.1",
+    "handlebars": "~2.0.0",
+    "jquery": "~1.11.2",
+    "modernizr": "~2.8.3",
+    "qunit": "~1.18.0",
+    "red-sass": "~0.2.0"
+  },
+  "resolutions": {
+    "ember": "~1.11.3",
+    "handlebars": "~2.0.0"
+  }
+}

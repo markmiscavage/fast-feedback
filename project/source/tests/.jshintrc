@@ -1,0 +1,58 @@
+{
+    "globals": {
+        "App"                : true,
+        "Ember"              : false,
+        "Handlebars"         : false,
+        "require"            : false,
+
+        "QUnit"              : false,
+        "asyncTest"          : false,
+        "deepEqual"          : false,
+        "equal"              : false,
+        "expect"             : false,
+        "module"             : false,
+        "notDeepEqual"       : false,
+        "notEqual"           : false,
+        "notStrictEqual"     : false,
+        "ok"                 : false,
+        "raises"             : false,
+        "start"              : false,
+        "stop"               : false,
+        "strictEqual"        : false,
+        "test"               : false,
+        "throws"             : false,
+
+        "andThen"            : false,
+        "click"              : false,
+        "fillIn"             : false,
+        "find"               : false,
+        "findWithAssert"     : false,
+        "keyEvent"           : false,
+        "visit"              : false,
+        "wait"               : false,
+
+        "invokeHelper"       : false,
+        "moduleFor"          : false,
+        "moduleForComponent" : false
+    },
+
+    "browser"        : true,
+    "jquery"         : true,
+
+    "camelcase"      : true,
+    "curly"          : true,
+    "eqeqeq"         : true,
+    "eqnull"         : true,
+    "forin"          : true,
+    "indent"         : 4,
+    "latedef"        : "nofunc",
+    "maxcomplexity"  : 10,
+    "maxdepth"       : 3,
+    "maxparams"      : 3,
+    "newcap"         : true,
+    "noarg"          : true,
+    "nonbsp"         : true,
+    "quotmark"       : "single",
+    "undef"          : true,
+    "unused"         : "vars"
+}
