@@ -15,7 +15,6 @@ class Dev(servers.DevServer):
     git_branch = 'develop'
 
     def _update_server(self, *args, **kwargs):
-        functions.render_template("nginx/dev-passwd")
         functions.execute_on_host('utils.install_package',
                                   package_name='postgresql-server-dev-all')
         functions.execute_on_host('utils.install_package',
