@@ -1,4 +1,4 @@
-Sbk Feedback
+Feedback
 ===========================================================
 
 Django admin login
@@ -7,7 +7,7 @@ Django admin login
 * Username: admin
 * Password: notinproduction
 
-Installing Sbk Feedback Backend
+Installing Feedback Backend
 -----------------------------------------------------------
 
 ```sh
@@ -15,7 +15,7 @@ cd <PATH_TO_PROJECT>
 sh ./scripts/setup.sh
 ```
 
-Installing Sbk Feedback Frontend
+Installing Feedback Frontend
 -----------------------------------------------------------
 
 ```sh
